@@ -1,0 +1,99 @@
+<!--
+
+    Programado por Luis Cabrera Benito 
+  ____          _____               _ _           _       
+ |  _ \        |  __ \             (_) |         | |      
+ | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
+ |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
+ | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
+ |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
+         __/ |                               __/ |        
+        |___/                               |___/         
+    
+    
+    Blog:       https://parzibyte.me/blog
+    Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
+    Contacto:   https://parzibyte.me/blog/contacto/
+-->
+<main class="container-fluid">
+  <div class="row" *ngIf="cargando">
+    <div class="col-12 text-center">
+      <h1 class="display-1">Cargando. Espere un momento por favor</h1>
+      <img src="assets/25.gif" alt="">
+    </div>
+  </div>
+  <div *ngIf="!cargando" class="row">
+    <div class="col-12">
+      <div class="text-center mt-2" *ngIf="!cargando">
+        <strong class="display-4">{{city}}, {{region_name}}, {{country_name}}<br> {{hora}}</strong>
+      </div>
+    </div>
+    <div class="col-12">
+      <app-weather-detail [detalles]="detallesHoy"></app-weather-detail>
+    </div>
+
+    <div *ngFor="let detalles of detallesProximos;" class="col-12 col-md-6 my-2">
+      <app-weather-detail [detalles]="detalles"></app-weather-detail>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card border-success mb-3">
+        <div class="card-header">Créditos</div>
+        <div class="card-body text-success">
+          <pre>
+
+            Programado por Luis Cabrera Benito 
+            ____          _____               _ _           _       
+           |  _ \        |  __ \             (_) |         | |      
+           | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
+           |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
+           | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
+           |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
+                   __/ |                               __/ |        
+                  |___/                               |___/         
+              
+              
+              Blog:       https://parzibyte.me/blog
+              Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
+              Contacto:   https://parzibyte.me/blog/contacto/
+          </pre>
+          <a href="https://parzibyte.me/blog/contrataciones-ayuda/" class="btn btn-warning btn-lg">Ayuda y soporte</a>
+          <h1>Imágenes</h1>
+          cloudy: Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+          clear: Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good
+            Ware</a>
+          from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          <br>
+
+          ishower,oshower: Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+          from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+
+          mcloudy: Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          <br>
+
+          rain: Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs"
+            title="DinosoftLabs">DinosoftLabs</a>
+          from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+
+          snow: Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+
+          tsrain: Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+          ts: Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

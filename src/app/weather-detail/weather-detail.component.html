@@ -1,0 +1,37 @@
+<!--
+
+    Programado por Luis Cabrera Benito 
+  ____          _____               _ _           _       
+ |  _ \        |  __ \             (_) |         | |      
+ | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
+ |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
+ | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
+ |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
+         __/ |                               __/ |        
+        |___/                               |___/         
+    
+    
+    Blog:       https://parzibyte.me/blog
+    Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
+    Contacto:   https://parzibyte.me/blog/contacto/
+-->
+<div class="card">
+    <div class="card-body">
+        <div class="row text-center">
+            <div class="col-lg-4 col-12">
+                <h1 class="display-1">{{detalles.temp2m.max}}°</h1>
+                <p>Mínima: {{detalles.temp2m.min}}°</p>
+            </div>
+            <div class="col-lg-4 col-12"><img style="max-width: 200px;" class="img-fluid mb-2" src="{{resolverImagen()}}" alt="Imagen del clima">
+            </div>
+            <div class="col-lg-4 col-12">
+                <p class="h1">
+                    {{detalles.date | fechaANombreDia}}
+                </p>
+                <p class="h6">
+                    {{detalles.date | formatearFecha}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
