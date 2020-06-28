@@ -1,3 +1,41 @@
+# Consumir API de clima con Angular
+ Proyecto con Angular para consumir API de clima dependiendo de la ubicación del usuario. 
+[![Clima con Angular - App que consume API](https://parzibyte.me/blog/wp-content/uploads/2020/06/Clima-con-Angular-App-que-consume-API.png)](https://parzibyte.me/blog/wp-content/uploads/2020/06/Clima-con-Angular-App-que-consume-API.png)
+
+Clima con Angular – App que consume API
+
+# Tutorial
+Aquí: [https://parzibyte.me/blog/2020/06/27/angular-aplicacion-clima-api/](https://parzibyte.me/blog/2020/06/27/angular-aplicacion-clima-api/)
+
+# Créditos
+```
+            Programado por Luis Cabrera Benito 
+            ____          _____               _ _           _       
+           |  _ \        |  __ \             (_) |         | |      
+           | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
+           |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
+           | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
+           |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
+                   __/ |                               __/ |        
+                  |___/                               |___/         
+              
+              
+              Blog:       https://parzibyte.me/blog
+              Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
+              Contacto:   https://parzibyte.me/blog/contacto/
+```
+
+# Imágenes
+
+cloudy: Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+clear: Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware "Good Ware") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+ishower,oshower: Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+mcloudy: Icons made by [srip](https://www.flaticon.com/authors/srip "srip") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+rain: Icons made by [DinosoftLabs](https://www.flaticon.com/authors/dinosoftlabs "DinosoftLabs") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+snow: Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+tsrain: Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")  
+ts: Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
+
 # Clima
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
