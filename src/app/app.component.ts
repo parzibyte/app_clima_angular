@@ -1,20 +1,3 @@
-/*
-
-    Programado por Luis Cabrera Benito 
-  ____          _____               _ _           _       
- |  _ \        |  __ \             (_) |         | |      
- | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
- |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
- | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
- |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
-         __/ |                               __/ |        
-        |___/                               |___/         
-    
-    
-    Blog:       https://parzibyte.me/blog
-    Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
-    Contacto:   https://parzibyte.me/blog/contacto/
-*/
 import { Component, OnInit } from '@angular/core';
 import { ClimaService } from './weather.service';
 
@@ -64,13 +47,13 @@ export class AppComponent implements OnInit {
     // Hacer que se muestre el indicador de carga
     this.cargando = true;
     // Obtener los datos de ubicación
-    const datosDeUbicacion = await this.weatherService.obtenerDatosUbicacion();
-    this.city = datosDeUbicacion.city;
-    this.region_name = datosDeUbicacion.region_name;
-    this.country_name = datosDeUbicacion.country_name;
-    const { latitude, longitude } = datosDeUbicacion;
+    // const datosDeUbicacion = await this.weatherService.obtenerDatosUbicacion();
+    this.city = 'Parque Patricios';
+    this.region_name = 'CABA';
+    this.country_name = 'Argentina';
+    // const { latitude, longitude } = datosDeUbicacion;
     // Obtener, ahora, los datos del clima
-    const datosDeClima = await this.weatherService.obtenerDatosDeClima(latitude, longitude);
+    const datosDeClima = await this.weatherService.obtenerDatosDeClima('-34.6021', '-58.3845');
     // Cortamos el arreglo para mostrar la de hoy, y también las siguientes
     this.detallesHoy = datosDeClima.dataseries.slice(0, 1)[0];
     this.detallesProximos = datosDeClima.dataseries.slice(1, 5);

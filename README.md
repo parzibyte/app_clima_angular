@@ -1,28 +1,7 @@
 # Consumir API de clima con Angular
- Proyecto con Angular para consumir API de clima dependiendo de la ubicación del usuario. 
-[![Clima con Angular - App que consume API](https://parzibyte.me/blog/wp-content/uploads/2020/06/Clima-con-Angular-App-que-consume-API.png)](https://parzibyte.me/blog/wp-content/uploads/2020/06/Clima-con-Angular-App-que-consume-API.png)
-
-Clima con Angular – App que consume API
-
-# Tutorial
-Aquí: [https://parzibyte.me/blog/2020/06/27/angular-aplicacion-clima-api/](https://parzibyte.me/blog/2020/06/27/angular-aplicacion-clima-api/)
-
-# Créditos
+# Programador
 ```
-            Programado por Luis Cabrera Benito 
-            ____          _____               _ _           _       
-           |  _ \        |  __ \             (_) |         | |      
-           | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
-           |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
-           | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
-           |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
-                   __/ |                               __/ |        
-                  |___/                               |___/         
-              
-              
-              Blog:       https://parzibyte.me/blog
-              Ayuda:      https://parzibyte.me/blog/contrataciones-ayuda/
-              Contacto:   https://parzibyte.me/blog/contacto/
+            @cesardelfinr
 ```
 
 # Imágenes
